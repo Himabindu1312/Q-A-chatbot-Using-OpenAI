@@ -13,23 +13,18 @@ Installation
 Prerequisites
 Ensure you have Python installed (>=3.7) and set up a virtual environment (optional but recommended).
 
-Clone the Repository
-```sh
-git clone https://github.com/your-username/qna-chatbot-openai.git
-cd qna-chatbot-openai
-```
 
 Install Dependencies
 Run the following command to install the required dependencies:
-```sh
+
 pip install -r requirements.txt
-```
+
 
 Configuration
 1. Create a `.env` file in the project root directory and add your OpenAI API key:
-```
+
 langchain_api_key=your_openai_api_key_here
-```
+
 2. Alternatively, enter your API key directly in the Streamlit sidebar when running the application.
 
 ## Running the Application
